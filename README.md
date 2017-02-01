@@ -1,11 +1,16 @@
-# DICOM
+# Matlab Scripts - utility scripts for Matlab use 
+
+## DICOM
 Matlab scripts for interacting with [DICOM](https://en.wikipedia.org/wiki/DICOM) files.
 
-##renameDicomSeries
+### renameDicomSeries
 Takes as parameter the name of a directory containing sub-directories of DICOM files (each sub-directory representing the output of one series).
 Reads the 'SeriesDescription' field from the metadata of the first file in each sub-directory, copies contents of each sub-directory into new directory with the name of the series, and outputs a master log file with information about each series found.
 
-(C) 2016 Austin Marcus
+## ExpToolbox
+A random collection of routines written by Michael Tarr to work with [Psychtoolbox](psychtoolbox.org). The key routine is readdata which makes reading in text files somewhat less painful. Now includes an improved readdata routine (v 1.3).
+
+(C) 2016 Tarrlab
 
 *Uploaded 10/3/2016 (Austin Marcus)*
 
