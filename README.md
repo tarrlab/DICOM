@@ -1,5 +1,5 @@
 ## ExpToolbox
-A random collection of routines written by Michael Tarr to work with [Psychtoolbox](psychtoolbox.org). The key routine is readdata which makes reading in text files somewhat less painful. Now includes an improved readdata routine (v 1.3).
+A random collection of routines written by Michael Tarr (@mjtarr) to work with [Psychtoolbox](psychtoolbox.org). The key routine is readdata which makes reading in text files somewhat less painful. Now includes an improved readdata routine (v 1.3).
 
 (C) 2016 Tarrlab
 
